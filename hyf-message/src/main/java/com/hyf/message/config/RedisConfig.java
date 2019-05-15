@@ -47,5 +47,4 @@ public class RedisConfig {
         // 所以如果我们定义的方法不是这个，需要在构造函数这添加上
         return new MessageListenerAdapter(receiver, "receiveMessage");
     }
-
 }
